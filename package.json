@@ -1,0 +1,25 @@
+{
+  "name": "nostr-timeline",
+  "version": "1.0.0",
+  "description": "A vertical timeline visualization for nostr events with adjustable time scale",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "keywords": ["obsidian", "nostr", "timeline"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.17.3",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "nostr-tools": "^1.17.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "nostr-timeline",
+  "name": "Nostr Timeline",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "A vertical timeline visualization for nostr events with adjustable time scale",
+  "author": "Nostr Timeline",
+  "isDesktopOnly": false
+}
