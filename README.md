@@ -11,6 +11,7 @@ A plugin for Obsidian that creates a visual timeline of your Nostr notes, displa
 - 🎨 Smooth animations and transitions
 - 👤 Author profile linking
 - ⚡ Automatic file monitoring
+<img width="750" alt="Screenshot 2025-01-17 at 1 46 59 PM" src="https://github.com/user-attachments/assets/c33dab71-d4a3-4805-825f-95632a4e8cfc" />
 
 ## Timeline Visualization
 
